@@ -1,6 +1,14 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+#local variables
+lesson-example: "https://carpentries.github.io/lesson-example/"
 ---
+
+{% include navigation.html %}
+
+{{site.description}}
+
+Need something write to [Thanks](mailto:{{site.email}})
+
+More info are here [About page](about)
+
+Some examples are [here]({{page.lesson-example}})
