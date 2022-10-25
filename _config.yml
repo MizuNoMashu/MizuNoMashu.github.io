@@ -1,7 +1,10 @@
 #global variables
-name: dio
-title: null
+name: Matteo
+title: Matteo Marinacci
 description: "HELLO SITE"
+# permalink: /about
 email: "matteo.marinacci@gmail.com"
 github: "https://github.com/MizuNoMashu"
 site: "https://MizuNoMashu.github.io"
+
+theme: minima

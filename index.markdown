@@ -1,11 +1,9 @@
 ---
 #local variables
+layout: default
 lesson-example: "https://carpentries.github.io/lesson-example/"
 ---
 
-{% include navigation.html %}
-
-{{site.description}}
 
 Need something write to [Thanks](mailto:{{site.email}})
 

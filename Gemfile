@@ -28,3 +28,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+# gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+gem 'faraday-retry'
+gem "webrick", "~> 1.7"
