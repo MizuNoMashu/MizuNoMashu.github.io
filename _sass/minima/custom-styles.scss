@@ -41,6 +41,7 @@
     background-color: #111;
     /* Black*/
     overflow-x: hidden;
+    white-space: nowrap;
     /* Disable horizontal scroll */
     // padding-top: 60px; /* Place content 60px from the top */
     transition: all 0.6s ease-in-out;
@@ -211,7 +212,7 @@ label[for="ham-menu"] {
 
 .topnav ul {
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 45%;
     height: 100%;
     transform: translate(-50%, -50%);
@@ -261,7 +262,9 @@ label[for="ham-menu"] {
     color: #1a73e8;
 }
 
-
+.topnav ul li:not(:last-child) { 
+    margin-bottom: 30px;  
+}
 
 
 #ham-menu:checked~.topnav ul li a {
