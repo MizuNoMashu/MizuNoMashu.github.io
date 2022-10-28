@@ -5,6 +5,10 @@ window.onload = (event) => {
 };
 
 function main() {
+
+
+    document.getElementById("ham-menu").addEventListener("click", openNav)
+    
     function openNav() {
         if (document.getElementById("ham-menu").checked) {
             document.getElementById("topNav").style.height = "250px";
@@ -18,6 +22,10 @@ function main() {
         }
     }
 
+
+
+
+    
     function scaleParent(width , height) {
         a = width
         b = height
