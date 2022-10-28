@@ -8,7 +8,7 @@ function main() {
 
 
     document.getElementById("ham-menu").addEventListener("click", openNav)
-    
+
     function openNav() {
         if (document.getElementById("ham-menu").checked) {
             document.getElementById("topNav").style.height = "250px";
@@ -23,10 +23,7 @@ function main() {
     }
 
 
-
-
-    
-    function scaleParent(width , height) {
+    function scaleParent(width, height) {
         a = width
         b = height
         c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2))
