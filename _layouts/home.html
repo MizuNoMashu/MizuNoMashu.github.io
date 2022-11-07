@@ -2,30 +2,19 @@
 layout: default
 ---
 <div id="main">
-  <main class="main-content" aria-label="Content">
-      <div id="portrait" class="portrait">
-          <div id="com" class="com" onchange="scaleParent()">
-              <a class="th">
-                  <img src="../a.jpg">
-              </a>
-          </div>
-      </div>
-      <div class="main-wrapper">
-
-
-
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-          {{ content }}
-      </div>
-  </main>
+    <main class="main-content" aria-label="Content">
+        <div id="portrait" class="portrait">
+            <div id="com" class="com" onchange="scaleParent()">
+                <a class="th">
+                    <img src="../a.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <p id="welcome"></p>
+            <p id="welcomeMsg1">Here you can find useful informations about me and keep update about my projects.</p>
+            {{ content }}
+        </div>
+    </main>
 
 </div>
